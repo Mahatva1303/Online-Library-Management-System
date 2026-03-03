@@ -1,0 +1,41 @@
+1: Requirement Analysis
+👤 User Features
+Register / Login
+Upload PDF book
+View PDF online
+Download PDF
+Search books
+See list of uploaded books
+
+👨‍💼 Admin Features
+Delete inappropriate books
+Manage users
+
+2: Tech Stack
+Frontend → HTML/CSS/JS (or React)
+Backend → Node.js + Express.js
+Database → MongoDB
+File Upload → Multer (middleware)
+
+
+3: Database Design
+🗄 Users Collection
+User
+- _id
+- name
+- email
+- password (hashed)
+- role (user/admin)
+📚 Books Collection
+Book
+- _id
+- title
+- author
+- description
+- pdfFilePath
+- uploadedBy (userId)
+- uploadDate
+
+
+
+
